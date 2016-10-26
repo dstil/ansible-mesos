@@ -5,6 +5,7 @@ mesos_version: "0.25.0"
 # Debian
 mesos_package_version: "0.2.70"
 mesosphere_apt_url: "http://repos.mesosphere.com/{{ ansible_distribution | lower }}"
+add_mesosphere_repo: true
 
 # RedHat: EPEL and Mesosphere yum repositories URL
 epel_repo: "https://dl.fedoraproject.org/pub/epel/{{ os_version_major }}/{{ ansible_architecture }}/{{ epel_releases[os_version_major] }}"
